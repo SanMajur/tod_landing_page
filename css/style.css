@@ -8,7 +8,7 @@ body{
     font-family: 'Roboto', sans-serif;
    
 }
-.header, #hero{
+.header, #hero, .footer{
     background-color: #1F2937;
     color: white;
     padding: 20px;
@@ -124,4 +124,45 @@ body{
     position: absolute;
     left: 60%;
     
+}
+.subscription{
+    max-width: 800px;
+    margin: 0 auto;
+   
+    padding: 40px 20px;
+}
+.subscription__content{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    background-color: #0364f5;
+    padding: 40px 60px;
+    border-radius: 16px;
+}
+.subscription__content-title{
+    font-size: 36px;
+    color: #F9FAF8;
+    font-weight: 600;
+}
+.subscription__content-subtext{
+    font-size: 16px;
+    color: #F9FAF8;
+    margin-top: 10px;
+}
+.subscription__content-btn{
+   padding: 8px 30px;
+   border-radius: 12px;
+   border: 1px solid #F9FAF8;
+    background-color: transparent;
+    color: #F9FAF8;
+    font-weight: 600;
+    cursor: pointer;
+    font-size: 18px;
+    width: 140px;
+}
+.footer{
+    text-align: center;
+    padding: 20px;
+    font-size: 14px;
+    color: #9CA3AF;
 }
