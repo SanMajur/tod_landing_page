@@ -8,17 +8,18 @@ body{
     font-family: 'Roboto', sans-serif;
    
 }
-.header{
+.header, #hero{
     background-color: #1F2937;
     color: white;
     padding: 20px;
 }
-.nav{
+.nav, .hero{
     display: flex;
     justify-content: space-between;
     align-items: center;
     max-width: 1200px;
     margin: 0 auto;
+    gap: 40px;
 }
 .logo a{
     font-size: 24px;
@@ -36,4 +37,35 @@ body{
     color: #E5E7EB;
     text-decoration: none;
     font-weight: 500;
+}
+.hero__content{
+    display: flex;
+    flex-direction: column;
+    padding: 60px 0px;
+    gap: 20px;
+}
+.hero__content-title{
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+.hero__content-subtext{
+    font-size: 24px;
+    color: #F9FAF8
+}
+.hero__content-button{
+    padding: 15px 30px;
+    font-size: 18px;
+    color: #F9FAF8;
+    background-color: #3882F6;
+    border: none;
+    border-radius: 8px;
+    font-weight: 600;
+    cursor: pointer;
+   width: 150px;
+}
+.hero__image{
+    max-width: 100%;
+    
+    height: auto;
 }
